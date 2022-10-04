@@ -1,0 +1,5 @@
+instance_name     = "<server-name>"
+instance_type     = "t4g.nano"
+ami_id            = "ami-0e040c48614ad1327"
+ami_key_pair_name = "<keypair-name>"
+route53_zone_id   = "<zone-id>"
