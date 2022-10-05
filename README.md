@@ -1,5 +1,6 @@
-# First step
-After cloning this repo, change Production.tfvars to reflect the server name and dns zone you wish to use
+# First steps
+- Change Production.tfvars to reflect the server name and dns zone you wish to use
+- Setup backend state. AWS S3 example given in connections.tf
 
 # Setup AWS Commandline
 ```

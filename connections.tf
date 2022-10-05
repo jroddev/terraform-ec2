@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "wireguard-server-tf"
+    bucket = "<name>-server-tf"
     key    = "state/key"
     region = "ap-southeast-2"
   }
