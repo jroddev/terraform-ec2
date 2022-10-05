@@ -17,7 +17,7 @@ resource "aws_eip" "default" {
 
 resource "aws_route53_record" "default" {
   zone_id = var.route53_zone_id
-  name    = "wireguard.jroddev.com"
+  name    = var.hostname
   type    = "A"
   ttl     = "300"
   records = ["${aws_eip.default.public_ip}"]
